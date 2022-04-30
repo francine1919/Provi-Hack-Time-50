@@ -1,0 +1,427 @@
+{
+	"info": {
+		"_postman_id": "3b09d221-3a08-4695-8598-5cb668ee1108",
+		"name": "Hackathon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"carla\",\r\n    \"email\":\"carka@gmail.com\",\r\n    \"password\":\"1234567\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://lit-headland-65821.herokuapp.com/user/signup",
+					"protocol": "https",
+					"host": [
+						"lit-headland-65821",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Signup",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"carla\",\r\n    \"email\":\"carka@gmail.com\",\r\n    \"password\":\"1234567\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://lit-headland-65821.herokuapp.com/user/signup",
+							"protocol": "https",
+							"host": [
+								"lit-headland-65821",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"user",
+								"signup"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "220"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"dc-o4/H240zxhzRj+cAAD9vagnqniM\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 30 Apr 2022 04:49:30 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"messagem\": \"criado!\",\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEwMWJmMGRhLWEzYmItNDc1ZS1iYmUzLWE5NzEzYWY2ODk1OCIsImlhdCI6MTY1MTI5NDE3MCwiZXhwIjoxNjUxMzMwMTcwfQ.rNHgtL8b1nY85uHN6FVTjGcdYqilR7UzlL6Tq0B805s\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"email\":\"frsa@gmail.com\",\r\n    \"password\":\"1234567\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://lit-headland-65821.herokuapp.com/user/login",
+					"protocol": "https",
+					"host": [
+						"lit-headland-65821",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"user",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"email\":\"frsa@gmail.com\",\r\n    \"password\":\"1234567\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://lit-headland-65821.herokuapp.com/user/login",
+							"protocol": "https",
+							"host": [
+								"lit-headland-65821",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"user",
+								"login"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "220"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"dc-+MPRQ7Dm3tpfL9wRMnOUTzNMM6U\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 30 Apr 2022 04:49:54 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"messagem\": \"logado!\",\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjFlYjE5YTAwLTA0YjUtNDZjMy1hMDJlLWQxMzlhZDJlOWQyOSIsImlhdCI6MTY1MTI5NDE5NCwiZXhwIjoxNjUxMzMwMTk0fQ.xUkhGJqOxoXjwJ0GYToNpbeequtsl8BiU40MZdlTe_w\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Create Agro Wallet",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjFlYjE5YTAwLTA0YjUtNDZjMy1hMDJlLWQxMzlhZDJlOWQyOSIsImlhdCI6MTY1MTI5NDE5NCwiZXhwIjoxNjUxMzMwMTk0fQ.xUkhGJqOxoXjwJ0GYToNpbeequtsl8BiU40MZdlTe_w",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"lote\":\"lote001\",\r\n    \"fotoLote\":\"https://www.google.com/search?q=imagens&\",\r\n    \"areaPlantio\":100,\r\n    \"dataPlantacao\":\"21/12/2022\",\r\n    \"tempoColheita\":60\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://lit-headland-65821.herokuapp.com/user/wallet",
+					"protocol": "https",
+					"host": [
+						"lit-headland-65821",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"user",
+						"wallet"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Create Agro Wallet",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjFlYjE5YTAwLTA0YjUtNDZjMy1hMDJlLWQxMzlhZDJlOWQyOSIsImlhdCI6MTY1MTI5NDE5NCwiZXhwIjoxNjUxMzMwMTk0fQ.xUkhGJqOxoXjwJ0GYToNpbeequtsl8BiU40MZdlTe_w",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\r\n    \"lote\":\"lote001\",\r\n    \"fotoLote\":\"https://www.google.com/search?q=imagens&\",\r\n    \"areaPlantio\":100,\r\n    \"dataPlantacao\":\"21/12/2022\",\r\n    \"tempoColheita\":60\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://lit-headland-65821.herokuapp.com/user/wallet",
+							"protocol": "https",
+							"host": [
+								"lit-headland-65821",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"user",
+								"wallet"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "22"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"16-ENI9ieJGY8h+f9NOC52fNefDeuM\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 30 Apr 2022 04:50:54 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"messagem\": \"criado!\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Agro Wallet",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjFlYjE5YTAwLTA0YjUtNDZjMy1hMDJlLWQxMzlhZDJlOWQyOSIsImlhdCI6MTY1MTI5NDE5NCwiZXhwIjoxNjUxMzMwMTk0fQ.xUkhGJqOxoXjwJ0GYToNpbeequtsl8BiU40MZdlTe_w",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://lit-headland-65821.herokuapp.com/user/wallet",
+					"protocol": "https",
+					"host": [
+						"lit-headland-65821",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"user",
+						"wallet"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Agro Wallet",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjFlYjE5YTAwLTA0YjUtNDZjMy1hMDJlLWQxMzlhZDJlOWQyOSIsImlhdCI6MTY1MTI5NDE5NCwiZXhwIjoxNjUxMzMwMTk0fQ.xUkhGJqOxoXjwJ0GYToNpbeequtsl8BiU40MZdlTe_w",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://lit-headland-65821.herokuapp.com/user/wallet",
+							"protocol": "https",
+							"host": [
+								"lit-headland-65821",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"user",
+								"wallet"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "198"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"c6-/j6enTPZ6MW5L+p54FfEnIsgSXM\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 30 Apr 2022 04:51:13 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"3ffb49a6-e5b9-4308-bf8c-835d323c1f24\",\n        \"lote\": \"lote001\",\n        \"fotoLote\": \"https://www.google.com/search?q=imagens&\",\n        \"areaPlantio\": 100,\n        \"dataPlantacao\": \"2022-12-21T00:00:00.000Z\",\n        \"tempoColheita\": 60\n    }\n]"
+				}
+			]
+		}
+	]
+}
