@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { memo, useEffect, useState } from 'react';
 import { ComposableMap, Geographies, Geography } from 'react-simple-maps';
+import { Paragrafo } from '../Home/styled';
 const _ = require("lodash"); 
 
 const geoUrl = 'https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json';
@@ -25,9 +26,9 @@ function MapFeatures({ setTooltipContent }) {
 
 	return (
     <>
-    <h1> O AQI O Índice de Qualidade do Ar nos permite entender os níveis de poluição<br/> atmosférica
+    <Paragrafo> O AQI O Índice de Qualidade do Ar nos permite entender os níveis de poluição<br/> atmosférica
       concentradas em ambientes internos e externos e as <br/> propriedades que tornam o ar impróprio,
-      ofensivo e danoso à saúde e ao meio ambiente.</h1>
+      ofensivo e danoso à saúde e ao meio ambiente.</Paragrafo>
     <div className="mx-1">
       <ComposableMap data-tip="" projectionConfig={{ scale: 140 }}>
         <Geographies geography={geoUrl}>

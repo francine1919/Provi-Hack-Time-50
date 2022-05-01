@@ -1,7 +1,7 @@
 import React from "react";
-import { ContainerHeaderLogin, ContainerNavigation } from "./styled";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from "../../Assets/images/logo.png";
+import { ContainerHeaderLogin, ContainerNavigation } from "./styled";
 export default function Header() {
   return (
     <div>
@@ -16,6 +16,12 @@ export default function Header() {
             to="/aboutus"
           >
             <p>Sobre nós</p>
+          </Link>
+          <Link
+            style={{ textDecoration: "none", color: "white" }}
+            to="/map"
+          >
+            <p>Mapa AQI</p>
           </Link>
         </ContainerNavigation>
       </ContainerHeaderLogin>
