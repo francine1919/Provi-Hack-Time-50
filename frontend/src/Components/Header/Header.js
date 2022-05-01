@@ -1,18 +1,23 @@
 import React from "react";
-import { ContainerHeaderLogin } from "./styled";
-import { Link } from "react-router-dom";
-// import logo from ""
+import { ContainerHeaderLogin, ContainerNavigation } from "./styled";
+import { Link, useNavigate } from "react-router-dom";
+import logo from "../../Assets/images/logo.png";
 export default function Header() {
   return (
     <div>
       <ContainerHeaderLogin>
-        {/* <img src={logo}/> */}
-        <Link to="/">
-          <p>home</p>
-        </Link>
-        <Link to="/aboutus">
-          <p>about us</p>
-        </Link>
+        <img src={logo} />
+        <ContainerNavigation>
+          <Link style={{ textDecoration: "none", color: "white" }} to="/">
+            <p>Home</p>
+          </Link>
+          <Link
+            style={{ textDecoration: "none", color: "white" }}
+            to="/aboutus"
+          >
+            <p>Sobre nós</p>
+          </Link>
+        </ContainerNavigation>
       </ContainerHeaderLogin>
     </div>
   );
