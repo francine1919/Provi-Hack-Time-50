@@ -1,7 +1,7 @@
 # Provi-Hack-Time-50
 Repositório do hackathon Provi hack do agora
 
-# Para utilizar o mock utilize o comando:
+# Para utilizar o projeto utilize o comando:
 npm install --legacy-peer-deps
 
 # Versões do node e npm:
