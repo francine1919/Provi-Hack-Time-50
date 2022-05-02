@@ -21,17 +21,17 @@ export const ContainerHeaderLogin = styled.div`
 		width: 100%;
     justify-content: center;
 	  }
-    p {
-      padding: 0 30px;
-      width: 100%;
-    }
 `;
 
 export const ContainerNavigation = styled.div`
   display: flex;
-  justify-content: space-evenly;
-  width: 20%;
-  margin: 0px 30px;
+  justify-content: space-between;
+  width: 30%;
+  margin: 0px 50px;
+  @media (max-width: 700px) {
+    width: 100%;
+    margin: 0px 20px;
+  }
 `;
 export const StyledLink = styled.link`
   text-decoration: none;

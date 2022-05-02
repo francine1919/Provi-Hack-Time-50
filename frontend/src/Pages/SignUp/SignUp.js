@@ -2,10 +2,10 @@ import axios from "axios";
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Header from "../../Components/Header/Header";
-import useForm from "../../Hooks/useForm";
 import { base_Url } from "../../Constants/base_Url";
-import { ContainerButton, ContainerSignup } from "./styled";
+import useForm from "../../Hooks/useForm";
 import { ContainerInput, ContainerInputTerms } from "../Login/styled";
+import { ContainerButton, ContainerSignup } from "./styled";
 
 export default function SignUp() {
   const navigate = useNavigate();
@@ -26,7 +26,7 @@ export default function SignUp() {
       .then((res) => {
         clearForm();
         localStorage.setItem("token", res.data.token);
-        navigate("/");
+        navigate("/agro/user/wallet");
       })
       .catch((err) => {
         alert(`${err.response.data}`);

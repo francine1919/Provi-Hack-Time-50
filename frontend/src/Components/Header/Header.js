@@ -15,15 +15,18 @@ export default function Header() {
           </Link>
           <Link
             style={{ textDecoration: "none", color: "white" }}
-            to="/aboutus"
-          >
+            to="/aboutus">
             <p>Sobre nós</p>
           </Link>
           <Link
             style={{ textDecoration: "none", color: "white" }}
-            to="/map"
-          >
+            to="/map">
             <p>Mapa AQI</p>
+          </Link>
+          <Link
+            style={{ textDecoration: "none", color: "white" }}
+            to="/account">
+            <p>Meu perfil</p>
           </Link>
         </ContainerNavigation>
       </ContainerHeaderLogin>

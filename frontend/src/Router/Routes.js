@@ -9,6 +9,7 @@ import Login from "../Pages/Login/Login";
 import Map from "../Pages/mapaPage/map";
 import SignUp from "../Pages/SignUp/SignUp";
 import TermsPage from "../Pages/TermsPage/TermsPage";
+import ViewAccount from "../Pages/viewAccount/viewAccount";
 
 export default function Router() {
   return (
@@ -23,6 +24,7 @@ export default function Router() {
           <Route exact path="/car/user/wallet" element={<CarWalletPage />} />
           <Route exact path="/terms" element={<TermsPage />} />
           <Route exact path="/map" element={<Map />} />
+          <Route exact path="/account" element={<ViewAccount />} />
           <Route exact path="*" element={<ErrorPage />} />
         </Routes>
       </BrowserRouter>
