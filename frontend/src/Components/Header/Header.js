@@ -6,7 +6,9 @@ export default function Header() {
   return (
     <div>
       <ContainerHeaderLogin>
-        <img src={logo} />
+        <Link to="/">
+          <img src={logo} />
+        </Link>
         <ContainerNavigation>
           <Link style={{ textDecoration: "none", color: "white" }} to="/">
             <p>Home</p>

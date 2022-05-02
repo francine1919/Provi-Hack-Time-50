@@ -4,6 +4,8 @@ import { Link, useNavigate } from "react-router-dom";
 import Header from "../../Components/Header/Header";
 import useForm from "../../Hooks/useForm";
 import { base_Url } from "../../Constants/base_Url";
+import { ContainerButton, ContainerSignup } from "./styled";
+import { ContainerInput, ContainerInputTerms } from "../Login/styled";
 
 export default function SignUp() {
   const navigate = useNavigate();
@@ -15,7 +17,6 @@ export default function SignUp() {
   });
   const onSignUp = (e) => {
     e.preventDefault();
-   
   };
   //endpoint signup
   const signUp = () => {
@@ -23,7 +24,7 @@ export default function SignUp() {
     axios
       .post(base_Url + "/user/signup", body)
       .then((res) => {
-         clearForm();
+        clearForm();
         localStorage.setItem("token", res.data.token);
         navigate("/");
       })
@@ -32,47 +33,56 @@ export default function SignUp() {
       });
   };
   return (
-    <div>
+    <>
       <Header />
-      <h1>Cadastre-se</h1>
-      <form onSubmit={onSignUp}>
-        <p>Nome</p>
-        <input
-          type="text"
-          name={"name"}
-          placeholder="Nome"
-          onChange={onChangeForm}
-          value={form.name}
-          required
-        />
-        <p>Email</p>
-        <input
-          type="text"
-          name={"email"}
-          placeholder="Email"
-          onChange={onChangeForm}
-          value={form.email}
-          required
-        />
+      <ContainerSignup>
+        <form onSubmit={onSignUp}>
+          <p>Nome</p>
+          <ContainerInput
+            type="text"
+            name={"name"}
+            placeholder="Nome"
+            onChange={onChangeForm}
+            value={form.name}
+            required
+          />
+          <p>Email</p>
+          <ContainerInput
+            type="text"
+            name={"email"}
+            placeholder="Email"
+            onChange={onChangeForm}
+            value={form.email}
+            required
+          />
 
-        <p>Senha</p>
-        <input
-          type="password"
-          name={"password"}
-          placeholder="Senha"
-          onChange={onChangeForm}
-          value={form.password}
-          required
-        />
-        <div>
-          <button type={"submit"} onClick={signUp}>
-            Enviar
-          </button>
-          <Link to="/login">
-            <button>Login</button>
-          </Link>
-        </div>
-      </form>
-    </div>
+          <p>Senha</p>
+          <ContainerInput
+            type="password"
+            name={"password"}
+            placeholder="Senha"
+            onChange={onChangeForm}
+            value={form.password}
+            required
+          />
+          <ContainerInputTerms>
+            <input type="checkbox" value="" required />
+            <span>
+              Aceito o compartilhamento de dados de acordo com o
+              <Link to="/terms"> termo</Link> de uso da plataforma, Lei geral de
+              proteção de dados e direito do consumidor.
+            </span>
+          </ContainerInputTerms>
+          <ContainerButton>
+            <button type={"submit"} onClick={signUp}>
+              Cadrastrar
+            </button>
+            <Link to="/login">
+              <button>Login</button>
+            </Link>
+          </ContainerButton>
+        </form>
+      </ContainerSignup>
+    </>
   );
 }
