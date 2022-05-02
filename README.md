@@ -1,9 +1,5 @@
 # Provi-Hack-Time-50
 
-# Versões do node e npm:
-node: v16.13.0
-npm:8.3.2
-
 # CARTEIRA VERDE
 
 ### Repositório do desafio do Hackathon da PROVI
@@ -51,6 +47,9 @@ Visual Studio Code
   ❯ cd frontend
     
 ##### 3- Para instalar as dependências e iniciar o projeto, você pode utilizar NPM:
+  ###### Versões do node e npm:
+  node: v16.13.0
+  npm:8.3.2
   
  ###### Instalar as dependências
   ❯ npm install --legacy-peer-deps
