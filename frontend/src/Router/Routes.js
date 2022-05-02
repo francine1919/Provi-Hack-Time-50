@@ -8,12 +8,8 @@ import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
 import Map from "../Pages/mapaPage/map";
 import SignUp from "../Pages/SignUp/SignUp";
-<<<<<<< HEAD
-import ViewAccount from "../Pages/viewAccount/viewAccount";
-
-=======
 import TermsPage from "../Pages/TermsPage/TermsPage";
->>>>>>> f2f7a4096f9efa52eeaddb060feb74f23c39becf
+import ViewAccount from "../Pages/viewAccount/viewAccount";
 
 export default function Router() {
   return (
