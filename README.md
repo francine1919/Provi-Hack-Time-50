@@ -65,8 +65,9 @@ Visual Studio Code
 | :---: | :---: | :---: |
 
 
-| [<img src="https://avatars.githubusercontent.com/u/59985165?v=4" width=115><br><sub>Dayane FrontEnd</sub>](https://github.com/daygds12) |  [<img src="https://avatars.githubusercontent.com/u/104745967?v=4" width=115><br><sub>Gabriel UX|UI</sub>](https://github.com/bielgasparhs) |  [<img src="https://avatars.githubusercontent.com/u/90872515?v=4" width=115><br><sub>Kelly FrontEnd</sub>](https://github.com/Kell22-mkt) |
+| [<img src="https://avatars.githubusercontent.com/u/59985165?v=4" width=115><br><sub>Dayane FrontEnd</sub>](https://github.com/daygds12) |  [<img src="https://avatars.githubusercontent.com/u/104745967?v=4" width=115><br><sub>Gabriel UX|UI</sub>](https://github.com/bielgasparhs) |  [<img src="https://avatars.githubusercontent.com/u/90872515?v=4" width=115><br><sub>Andreyna Carvalho</sub>](https://github.com/Kell22-mkt) |
 | :---: | :---: | :---: |
+
 
 
 ### Link do DevPost para mais informações do projeto https://devpost.com/software/carteira-verde
