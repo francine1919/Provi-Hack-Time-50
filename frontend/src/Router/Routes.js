@@ -8,8 +8,12 @@ import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
 import Map from "../Pages/mapaPage/map";
 import SignUp from "../Pages/SignUp/SignUp";
+<<<<<<< HEAD
 import ViewAccount from "../Pages/viewAccount/viewAccount";
 
+=======
+import TermsPage from "../Pages/TermsPage/TermsPage";
+>>>>>>> f2f7a4096f9efa52eeaddb060feb74f23c39becf
 
 export default function Router() {
   return (
@@ -22,6 +26,7 @@ export default function Router() {
           <Route exact path="/aboutus" element={<AboutUsPage />} />
           <Route exact path="/agro/user/wallet" element={<AgroWalletPage />} />
           <Route exact path="/car/user/wallet" element={<CarWalletPage />} />
+          <Route exact path="/terms" element={<TermsPage />} />
           <Route exact path="/map" element={<Map />} />
           <Route exact path="/account" element={<ViewAccount />} />
           <Route exact path="*" element={<ErrorPage />} />
