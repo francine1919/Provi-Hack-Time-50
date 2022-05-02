@@ -1,0 +1,55 @@
+.logoabout{
+width: 15%;
+padding: 19px;
+margin: 20px;
+}
+
+.fameabout{
+    
+    width: 3%;
+    
+}
+
+h1, h2, p{
+    color: #004616;
+    font-weight: bold;
+    margin: 18px;
+  
+}
+
+.divfoto{
+    width: 57%;
+    border-radius: 50%;
+     margin-left: 22%;
+    
+}
+
+.h1principal{
+    margin-bottom: 1.5em;
+}
+
+span{
+    color: #8CB347;
+}
+
+.equipe{
+    display: flex ;
+    margin: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.divlinkedin{
+    width: 100%;
+    display: grid;
+    grid-gap: 80px;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+
+
+.pfilho{
+    text-align: center;
+}
