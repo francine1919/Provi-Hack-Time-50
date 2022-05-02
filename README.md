@@ -63,10 +63,9 @@ Visual Studio Code
 
 | [<img src="https://avatars.githubusercontent.com/u/94610559?v=4" width=115><br><sub>Francine FullSTack</sub>](https://github.com/francine1919) |  [<img src="https://avatars.githubusercontent.com/u/91439533?v=4" width=115><br><sub>Jean PO</sub>](https://github.com/jeansevenz) |  [<img src="https://avatars.githubusercontent.com/u/87716793?v=4" width=115><br><sub>Andreyna Carvalho</sub>](https://github.com/andreyna1808) |
 | :---: | :---: | :---: |
-| [<img src="https://avatars.githubusercontent.com/u/59985165?v=4" width=115><br><sub>Dayane FrontEnd</sub>](https://github.com/daygds12) |  [<img src="https://avatars.githubusercontent.com/u/104745967?v=4" width=115><br><sub>Gabriel UX|UI</sub>](https://github.com/bielgasparhs) |  [<img src="https://avatars.githubusercontent.com/u/90872515?v=4" width=115><br><sub>Kelly frontEnd</sub>](https://github.com/Kell22-mkt) |
+| [<img src="https://avatars.githubusercontent.com/u/59985165?v=4" width=115><br><sub>Dayane FrontEnd</sub>](https://github.com/daygds12) |  [<img src="https://avatars.githubusercontent.com/u/104745967?v=4" width=115><br><sub>Gabriel UX/UI</sub>](https://github.com/bielgasparhs) |  [<img src="https://avatars.githubusercontent.com/u/90872515?v=4" width=115><br><sub>Kelly frontEnd</sub>](https://github.com/Kell22-mkt) |
 | :---: | :---: | :---: |
-
-
+| [<img src="https://avatars.githubusercontent.com/u/90781941?v=4" width=115><br><sub>Kevin FrontEnd</sub>](https://github.com/Tihuanna) |
 
 ### Link do DevPost para mais informações do projeto https://devpost.com/software/carteira-verde
 
